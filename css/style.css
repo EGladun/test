@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header{
+	display: flex;
+	background-color: rgba(255,204,0,0.7);
+	height: 100px;
+	width: 100%;
+}
+
+.main{
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.footer{
+	margin-top: 20px;
+	background-color: black;
+	height: 100px;
+	width: 100%;
+}
+
+.flex{
+	display: flex;
+	align-items: center;
+}
+
+.container{
+	min-width: 300px;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.logo{
+	max-width: 100px;
+}
+
+.logo-placeholder{
+	position: absolute;
+    left: 70px;
+}
+
+.nav{
+}
+
+.main-title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.yellow-stripe{
+	background-color: rgba(255,204,0,0.7);
+	height: 20px;
+	width: 100%;
+}
+
+.white-stripe{
+	background-color: rgba(255,255,255,1);
+	height: 20px;
+	width: 100%;
+}
+.info{
+	border-bottom: 1px solid rgba(255,204,0,1);
+}
+
+.subtitle {
+    font-size: 2em;
+    font-weight: 700;
+}   
+
+.subtitle-small {
+    font-size: 1.5em;
+    font-weight: 700;
+}  
+
+.text-info{
+	display: block;
+}
+
+.list {
+    font-family: sans-serif;
+    font-variant: normal;
+    padding-inline-start: 30px;
+}
